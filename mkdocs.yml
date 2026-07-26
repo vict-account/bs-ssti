@@ -1,0 +1,6 @@
+site_name: SSTI Test
+docs_dir: docs
+plugins:
+  - techdocs-core
+extra_templates:
+  - pwn.html
